@@ -2,7 +2,7 @@
 
 ## "Sabor a Cielo" (Sitio del cliente)
 
-- [Sabor a Cielo - Sitio del Cliente](./Pasteleria/PASTELERIA.md)
+- [Sabor a Cielo - Sitio del Cliente](./Pasteleria)
 
 Demo: [Sabor a Cielo](https://saboracielo.netlify.app/)
 
