@@ -50,12 +50,12 @@ Los clientes pueden crear nuevas demandas y seguir el estado de dichas demandas.
 
 ## Público objetivo
 
-![Ver Imagen publico objetivo](/img/publico-objetivo.jpg)
+![Ver Imagen publico objetivo](./img/publico-objetivo.jpg)
 
 
 ## Wireframe - Diagrama de flujos
 
-![Ver diagrama](/img/diagrama.jpg)
+![Ver diagrama](./img/diagrama.jpg)
 
 
 ## Diseño UI
@@ -64,13 +64,13 @@ Los clientes pueden crear nuevas demandas y seguir el estado de dichas demandas.
 
 - Home Page
 
-![Honme Page](/img/UI/home.jpg)
+![Honme Page](./img/UI/home.jpg)
 
 - Login Page
 
-![Login Page](/img/UI/login.png)
+![Login Page](./img/UI/login.png)
 
 - Abogado Page
 
-![Abogado Page](/img/UI/abogado.png)
+![Abogado Page](./img/UI/abogado.png)
 
