@@ -10,7 +10,7 @@ body {
 }
 section {
     scroll-margin-top: 70px;
-    padding:50px
+    padding:40px
 }
 
 /*-----NavBar-----*/
@@ -165,9 +165,9 @@ main {
 }
 .tamaño {
     margin:0 auto;
-    padding:25px;
-    height:150px;
-    width:75%;
+    padding:15px;
+    height:300px;
+    width:100%;
     background:white
 }
 .tamaño p {
