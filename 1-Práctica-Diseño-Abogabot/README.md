@@ -46,7 +46,7 @@ Los clientes pueden crear nuevas demandas y seguir el estado de dichas demandas.
 
 ## Buyer Persona
 
-![Ver Imangen Buyer persona](/img/buyer-persona.jpg)
+![Ver Imangen Buyer persona](./img/buyer-persona.jpg)
 
 ## Público objetivo
 
