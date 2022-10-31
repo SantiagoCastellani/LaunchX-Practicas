@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor a cielo - OFICCE</title>
+    <!---Bootstrap--------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!---Bootstrap Icons--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!---CSS--------------->
+    <link rel="stylesheet" href="../style.css">
+    <!---FONTS---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand marca" href="../index.html">Sabor a cielo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/pedidos.html">PEDIDOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/entrega.html">ENTREGAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">STOCK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/proveedores.html">PROVEEDORES</a>
+              </li>             
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/blog.html">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.google.com/intl/es-419/gmail/about/" target="blanck">MENSAJES</a>
+              </li>          
+            </ul>
+            <a id="login-link" class="nav-link" href="../pages/login.html"><i class="bi bi-person-circle"></i></a>        
+          </div>
+        </div>
+    </nav>
+    <header class="stock">
+        <div class="container">
+            <div class="titular container">
+                <h2>Stock</h2>
+                <h3>Sabor a cielo</h3>            
+            </div>
+        </div>
+        <div class="lista-stock">
+            <table>
+                <tr>
+                  <th>Insumo</th>
+                  <th>Cantidad restante</th>
+                  <th>Duración estimada</th>
+                  <th>Fecha planificada</th>
+                  <th>Suficiente ?</th>
+                  <th>Realizar pedido</th>
+                </tr>
+                <tr class="tranqui">
+                  <td>Harina de trigo</td>
+                  <td>200Kg</td>
+                  <td>10 dias</td>
+                  <td>15/11/2022</td>
+                  <td>SI</td>
+                  <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                </tr>
+                <tr class="tranqui">
+                    <td>Levadura</td>
+                    <td>2Kg</td>
+                    <td>12 dias</td>
+                    <td>15/11/2022</td>
+                    <td>SI</td>
+                    <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                </tr>
+                <tr class="urge">
+                    <td>Dulce de leche</td>
+                    <td>5Kg</td>
+                    <td>2 dias</td>
+                    <td>15/11/2022</td>
+                    <td>NO</td>
+                    <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                </tr>
+                <tr class="tranqui">
+                      <td>Chocolate</td>
+                      <td>20Kg</td>
+                      <td>10 dias</td>
+                      <td>15/11/2022</td>
+                      <td>SI</td>
+                      <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                </tr>
+                <tr class="urge">
+                    <td>Cober choco blanco</td>
+                    <td>2Kg</td>
+                    <td>3 dias</td>
+                    <td>15/11/2022</td>
+                    <td>NO</td>
+                    <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                  </tr>
+                  <tr class="urge">
+                      <td>Cober choco negro</td>
+                      <td>1Kg</td>
+                      <td>1 dia</td>
+                      <td>15/11/2022</td>
+                      <td>NO</td>
+                      <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                  </tr>
+                  <tr class="tranqui">
+                      <td>Chispitas de choco</td>
+                      <td>10Kg</td>
+                      <td>10 dias</td>
+                      <td>15/11/2022</td>
+                      <td>SI</td>
+                      <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                  </tr>
+                  <tr class="tranqui">
+                        <td>Frutos secos</td>
+                        <td>20Kg</td>
+                        <td>15 dias</td>
+                        <td>15/11/2022</td>
+                        <td>SI</td>
+                        <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                  </tr>
+                  <tr class="maso">
+                    <td>Crema</td>
+                    <td>10Kg</td>
+                    <td>4 dia</td>
+                    <td>15/11/2022</td>
+                    <td>???</td>
+                    <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                </tr>
+                <tr class="tranqui">
+                    <td>Coco rallado</td>
+                    <td>10Kg</td>
+                    <td>10 dias</td>
+                    <td>15/11/2022</td>
+                    <td>SI</td>
+                    <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                </tr>
+                <tr class="tranqui">
+                      <td>Frutos rojos</td>
+                      <td>10Kg</td>
+                      <td>10 dias</td>
+                      <td>15/11/2022</td>
+                      <td>SI</td>
+                      <td><a href="../pages/proveedores.html">Proveedor</a></td>                  
+                </tr>
+            </table>
+        </div>
+              
+    </header>
+    <footer id="footer">
+        <p>Copyrigth 2022: Santiago Castellani - Práctica realizada para LaunchX - Mision Frontend</p>      
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+</body>
+</html>

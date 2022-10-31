@@ -1,0 +1,303 @@
+
+.body {
+    background:url(./img/nubes2.jpg);
+    margin:0 auto;
+    padding:0 auto;
+    background-attachment: fixed;
+}
+/*------NAVBAR------*/
+
+.navbar {
+    background: rgb(250, 250, 163);
+    padding:15px;
+    font-size:1.1rem;
+}
+.marca {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 2rem;   
+}
+.navbar li {
+    margin:0 10px;
+    padding:0 auto;
+    align-items: center;
+}
+.navbar li a {
+    margin:20 auto;
+    padding:0 auto
+}
+.nav-link {
+    font-size: 1.2rem;
+
+}
+#login-link {
+    font-size: 2rem;
+    margin-right: 150px;
+    text-align: center;
+}
+
+/*------HEADER------*/
+
+#header {
+    height:100vh
+}
+.titulo { 
+    padding:0 15%;
+    margin:0 auto;
+    text-align: center;    
+}
+.titulo h1 {
+    margin:120px 0 0;
+    padding:0 auto;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 8rem;
+    color:orange;
+    text-shadow: yellow 5px 5px;
+    text-align: center;
+}
+.titulo h2 {
+    margin:0 auto;
+    padding:0 auto;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 2rem;
+    color:black;
+    text-align: center;
+}
+
+.secciones {
+    margin: 80px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.caja {
+    height:150px;
+    width: 200px;
+    border:2px solid yellow;
+    margin:15px;
+    border-radius:10px;
+    background: black;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    transition:500ms;
+    padding:10px
+}
+.caja:hover {
+    background:rgb(45, 45, 45);
+    height:153px;
+    width:205px;
+    color:white
+}
+.caja h3 {
+    color:green
+}
+.caja p {
+    margin:0 auto
+}
+.entrega-hoy {
+    color:red
+}
+
+.entrega-mañana {
+    color:orangered
+}
+
+.entrega-dias {
+    color:orange
+}
+
+
+/*------FOOTER------*/
+#footer {
+    background: rgb(250, 250, 163);
+    max-height:max-content;
+    min-height: 70px;
+    text-align: center;
+    padding:30px
+}
+#footer p {
+    margin:0 auto
+}
+
+/*-----------LOGIN PAGE--------------*/
+.register {
+    padding:5% 25%;
+    background:black;
+    color:white;
+    height: 100vh;
+}
+.cajilla {
+    margin:0 auto
+}
+.boton-register {
+    text-align: center;
+    padding:0 auto;
+}
+#boton-registro {
+    width:50%;
+    margin:25px 25%
+}
+.titulin {
+    text-align: center;
+}
+.titulin h2 {    
+    font-family: 'Comforter Brush', cursive;
+    font-size: 4rem;
+    color:yellow
+}
+.titulin h3 { 
+    color:green
+}
+.regreso {
+    text-align: center;
+    margin-top:15px
+}
+
+/*-----------PEDIDOS PAGE--------------*/
+#pedidos {
+    height:max-content;
+    background:black;
+    padding-bottom:50px;
+}
+.titular h2{
+    color:white;
+    padding:120px 0 0;
+    padding:0 auto;
+    font-size: 4rem;    
+    text-align: center;
+}
+.titular h3 {    
+    font-family: 'Comforter Brush', cursive;
+    text-align: center;
+    color:yellow;
+    font-size: 2rem;
+}
+.lista-pedidos {
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pedido {
+    color:black;
+    background-color:white;
+    width:400px;    
+    border-radius:10px;
+    padding:15px;
+    margin:15px
+}
+.boton {
+    margin:10px
+}
+.pedido p {
+    margin: 5px;
+    padding:0 px
+}
+.urgente {
+    border:10px solid orangered;
+} 
+.sin-prisa {
+    border:10px solid green;
+}
+.medio {
+    border:10px solid orange;
+}  
+/*--------ENTREGAS PAGE--------*/
+#entregas {
+    height: 100vh;
+    background: black;
+}
+.lista-entregas {
+    margin:50px auto;
+    background:white;
+    color:black;
+    border:2px solid yellow;
+    width:80%
+}
+th,td{
+    border:0.5px solid grey;
+    padding:10px;
+    width:10%
+}
+.hoy {
+    background-color:rgba(255, 0, 0, 0.242)
+}
+.mañana {
+    background-color:rgba(255, 166, 0, 0.478)
+}
+.pasado {
+    background-color: rgba(255, 255, 0, 0.474);
+}
+.cuando {
+    margin-left:40px;
+}
+
+/*--------STOCK PAGE--------*/
+.stock {
+    background:black;
+    height:max-content;
+    padding:15px 10px 75px;
+}
+.lista-stock {
+    margin:50px auto;
+    background:white;
+    color:black;
+    border:2px solid yellow;
+    width:80%;
+    text-align: center;
+}
+.urge {
+    background:rgba(255, 0, 0, 0.281)
+}
+.maso {
+    background:rgba(255, 255, 0, 0.357)
+}
+.tranqui {
+    background:rgba(0, 128, 0, 0.377)
+}
+
+/*--------PROVEEDORES PAGE--------*/
+
+
+.boxing {
+    height:max-content;
+    width: max-content;
+    border:1px solid orange;
+    margin:15px;
+    color: black;
+    background-color:white;
+    text-align: center;
+    text-decoration: none;
+    transition:500ms;
+    padding:10px
+}
+.boxing:hover {
+    background:rgb(45, 45, 45);
+    color:white
+}
+.boxing p {
+    margin:0 auto
+}
+
+/*-------BLOG PAGE-------*/
+.blog {
+    height:100vh;
+    background:black;
+    padding:30px;
+    color:rgb(185, 255, 185)
+}
+.comen{
+    margin: 20px auto;
+    padding:0 auto;
+    text-align: center;
+    color:black;
+    background:white;   
+    border:2px solid orange
+}
+.comen p {
+    margin:5px
+}
+.dice {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}

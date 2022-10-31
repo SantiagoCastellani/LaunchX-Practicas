@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor a cielo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="pago">
+        <div class="caja">
+            <h2>Confirmar compra de pastel</h2>
+            <a href="./index.html">Volver a la página principal</a>
+            <div class="pedido">
+                <h3>Ud. ha pedido u pastel:</h3>
+                    <p>Tipo:Chocolatoso</p>
+                    <p>Ingredientes: Frutos secos, Chocoate, Dulce de leche</p>
+                    <p>Adornos: Chispitas de chocolate, Rodajas de fruta</p>
+                    <p>Descripción extra: "Mucho chocolate!!!"</p>
+                    <p>Fecha de entrega: 25/12/2022</p>
+                    <p>Envio: SI</p>
+                    <p>Costo del pastel: $3500</p>                    
+                </h3>
+                <h3>Datos del cliente y pago</h3>
+                <form action="./index.html">
+                    <label for="nombre">Nombre y apellido</label><br>
+                    <input type="text" id="nombre" name="nombre"><br><br>
+                    <label for="telefono">Teléfono</label><br>
+                    <input type="number" id="telefono" name="telefono"><br><br>
+                    <label for="direccion">Dirección</label><br>
+                    <input type="text" id="direccion" name="direccion"><br><br>
+
+                    <label for="forama-de-pago"><b>¿Forma de pago?</b></label><br>
+                    <input type="radio" id="efectivo" name="forma-de-pago" value="efectivo">
+                    <label for="efectivo">Efectivo</label><br>
+                    <input type="radio" id="credito" name="forma-de-pago" value="credito">
+                    <label for="credito">Tarjeta de crédito</label><br>
+                    <input type="radio" id="debito" name="forma-de-pago" value="debito">
+                    <label for="debito">Tarjeta de débito</label><br>
+                    <div class="container botones-pago">
+                        <p>Finalización de compra de pastel</p>
+                        <input id="aceptar" type="submit" value="COMPRAR">
+                        <input id="cancelar" type="submit" value="Cancelar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>

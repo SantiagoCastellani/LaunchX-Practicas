@@ -1,0 +1,270 @@
+/* Estilos Globales */
+
+body {
+    /*
+    background:lightblue;*/
+    background:url(./img/nubes2.jpg);
+    margin:0 auto;
+    padding:0 auto;
+    background-attachment: fixed;
+}
+section {
+    scroll-margin-top: 70px;
+    padding:50px
+}
+
+/*-----NavBar-----*/
+
+.navbar {
+    background: rgb(250, 250, 163);
+    padding:15px;
+    font-size:1.1rem;
+}
+.marca {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 2rem;   
+}
+
+/*-----Header Banner-----*/
+
+#home {
+    margin-top:100px
+}
+.titulo {    
+    position:absolute;
+    top:120px;
+    left:0px;
+    z-index: 10;
+    padding:0 25%;
+    margin:0 auto;
+    text-align: center;    
+}
+.titulo h1 {
+    margin:0 auto;
+    padding:0 auto;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 8rem;
+    color:orange;
+    text-shadow: yellow 5px 5px;
+    text-align: center;
+}
+.titulo h2 {
+    margin:0 auto;
+    padding:0 auto;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 4rem;
+    color:black;
+    text-align: center;
+}
+.carousel-item {
+    max-height: 80vh;
+}
+main {
+    padding: 35px;
+    margin:0 auto;
+}
+
+/*-----ACERCA-DE La mejor pasteleria-----*/
+
+#acerca-de {
+    text-align:center;
+    background:black;
+    color:white;
+    margin:0 auto;
+    margin-top: 25px;
+    border-radius:10px;
+    border: 2px solid yellow
+}
+.presentacion h2{
+    color:orange;
+    font-family: 'Comforter Brush', cursive;
+    font-size:3.5rem;
+    margin: 10px 10px 30px;    
+}
+.presentacion p{
+    color:grey;
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.3rem    
+}
+
+
+/*-----SECCION PASTELES------*/
+
+#pasteles {
+    text-align:center;
+    background:orange;
+    color:black;
+    margin-top:50px;
+    border-radius:10px;
+    border: 2px solid red
+}
+.muestra .card img {
+    max-height: 280px;
+}
+.pastelillos h2{
+    color:black;
+    font-family: 'Comforter Brush', cursive;
+    font-size:3.5rem;  
+}
+.pastelillos h3{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.5rem;
+    margin-bottom: 25px;    
+}
+
+/*-----SECCION PERSONALIZA------*/
+
+#personaliza {
+    text-align:center;
+    background:rgb(236, 237, 182);
+    color:black;
+    margin-top:50px;
+    border-radius:10px;
+    border: 2px solid red
+}
+.personalizacion h2 {
+    font-family: 'Comforter Brush', cursive;
+    font-size:3.5rem;
+}
+.personalizacion p {
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.2rem;
+    margin-bottom: 25px; 
+}
+.eleccion {
+    text-align: left;
+}
+#comentario {
+    width:100%
+}
+.botones {
+    text-align:center
+}
+.botones input {
+    margin:25px 50px;
+}
+
+/*----BLOG----*/
+
+
+#blog {
+    text-align:center;
+    background: rgb(255, 176, 167);
+    color:black;
+    margin-top:50px;
+    border-radius:10px;
+    border: 2px solid orange
+}
+#blog h2{
+    font-family: 'Comforter Brush', cursive;
+    font-size:3.5rem;
+}
+#blog h4 {
+    font-size: 1rem;
+}
+.tamaño {
+    margin:0 auto;
+    padding:25px;
+    height:150px;
+    width:75%;
+    background:white
+}
+.tamaño p {
+    font-weight: bolder;
+}
+.tamaño span {
+    font-weight:normal;
+}
+.agregar {
+    margin-top:20px
+}
+#comentario-blog {
+    margin:0 auto;
+    width:50%
+}
+
+/*----CONTACTO----*/
+
+#contacto {
+    text-align:center;
+    background: rgb(245, 245, 109);
+    color:black;
+    margin-top:50px;
+    border-radius:10px;
+    border: 2px solid rgb(0, 255, 183)
+}
+#contacto h2{
+    font-family: 'Comforter Brush', cursive;
+    font-size:3.5rem;
+}
+.sucursales {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sucursal {
+    margin:20px
+}
+#redes {
+    margin:25px
+}
+.redes a{
+    color:black;
+    font-size:25px;
+    margin:10px 25px
+}
+.redes a:hover {
+    color: rgb(92, 214, 92)
+}
+
+/*----FOOTER------*/
+
+#footer {
+    background: rgb(250, 250, 163);
+    max-height:max-content;
+    min-height: 70px;
+    text-align: center;
+    padding:30px
+}
+#footer p {
+    margin:0 auto
+}
+
+/*----Media Query----*/
+
+@media only screen and (max-width: 790px) {
+    .titulo h1 {
+        font-size: 4rem;
+    }
+    .titulo h2 {
+        font-size: 2rem;
+    }   
+}
+
+@media only screen and (max-width: 680px) {
+    .presentacion h2{
+        font-size:2.5rem;  
+    }
+    .presentacion p{
+        font-size:0.9rem    
+    }    
+}
+
+@media only screen and (max-width: 500px) {
+    .titulo h1 {
+        font-size: 2rem;
+    }
+    .titulo h2 {
+        font-size: 1rem;
+    }     
+}
+
+/* PAGO DE PASTEL */
+
+#pago {
+    background:rgb(237, 237, 194);
+    margin: 100px;
+    border: 2px solid black;
+    padding:50px
+}
