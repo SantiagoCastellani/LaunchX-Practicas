@@ -1,0 +1,459 @@
+/*-----NavNar-----*/
+.navbar {
+    padding:25px;
+    font-weight: bolder;
+}
+.navbar-brand {
+    color:rgb(2, 2, 179);
+    font-size:1.8rem;
+    margin-left:100px;
+}
+#primero {
+    margin-left: 210px
+}
+.navbar-nav a {
+    margin-right: 25px;
+    font-size:1.2rem
+}
+.navbar-nav a:hover {
+    background:rgb(27, 27, 192);
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 0px 10px 8px grey;
+}
+
+/*----Header-----*/
+header {
+    height:800px
+}
+.header {
+    margin:0 auto;
+    padding:0 auto;
+    display:flex;
+    justify-content: center;
+}
+.header-left {
+    width:50%;
+    height:800px;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    
+}
+.presentacion {
+    margin-top:110px;
+    padding:0 90px;
+    text-align: center;
+}
+.presentacion h1 {
+    color:rgb(0, 0, 128);
+    font-size:3.5rem;
+    font-weight: bolder;
+    text-align: left;
+}
+.textillo {
+    color:grey;
+    font-size: 1.3rem;
+    text-align: left;
+}
+.amarillo {
+    color:yellow;
+    margin-right: 20px
+}
+.items {
+    margin-top:60px;
+    padding-left:0;
+    display:flex;
+}
+.item {
+    margin-right: 45px;
+}
+.iii {
+    color:rgb(49, 49, 129);
+    font-weight: bolder;
+    font-size: 1rem
+}
+.montada {
+    margin-top:130px;
+    display: flex
+}
+.azul {
+    color:blue;
+}
+.planifica {
+    color:rgb(49, 49, 129);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin:0 auto;
+    margin-left:25px;    
+}
+.header-right {
+    width:50%;
+    height:800px;
+    background-color:rgb(95, 122, 229)
+}
+img {
+    width:auto;
+    height:700px;
+    margin-top:100px;
+    margin-left:150px
+}
+.planification {
+    position:relative;    
+    display:flex;
+    height:150px;
+    width:900px;
+    justify-content: space-around;
+    align-items: center;
+    background:white;
+    top:-170px;
+    left:90px;
+    box-shadow: 0px 10px 8px rgb(183, 180, 180);
+    opacity:0.9;
+    border-radius:5px
+}
+.fila {
+    display:flex
+}
+.fila i {
+    color: blue
+}
+.acompaña {
+    margin:7px 12px;
+    font-weight: bolder;
+    color: grey;
+    font-size:1.2rem
+}
+.dice {
+    margin-left:55px;
+    color:rgb(49, 49, 129);
+    font-weight: bolder;
+    font-size:1.5rem    
+}
+#submit1 {
+    font-size:1.6rem
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*------------LUGARES------------------------------------------------------*/
+.lugares {
+    height:200px
+}
+.contiene {
+    margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.nombre {
+    margin:0 auto;
+    color:grey;
+    font-size:2rem;
+    opacity:0.5;
+    padding:90px 0px
+}
+.nombre h4 {
+    margin:0 auto;
+    font-size:3rem;
+    opacity:0.4
+}
+/*-------------------------------------------------------------------------*/
+
+/*------------PORQUE VACACIONES--------------------------------------------*/
+.vacaciones {
+    padding: 50px 100px;
+    margin-top:50px
+}
+.subtitulo {
+    width:50%;    
+}
+.subtitulo h3 {
+    font-size:2.7rem;
+    color:rgb(49, 49, 129);
+    font-weight: bolder;
+}
+.subtitulo p {
+    color:rgb(148, 149, 161);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top:35px
+}
+.cartillas {
+    display:flex;
+    justify-content:space-between;
+    margin-top:60px
+}
+.carta {
+    height:300px;
+    width:250px;
+    border:3px solid rgba(227, 228, 233, 0.598);
+    border-radius:15px;
+    padding:25px
+}
+.carta i {
+    color:blue
+}
+.carta h4 {
+    color:rgb(50, 50, 102);
+    font-weight: 700;
+    font-size:1.4rem;
+    margin-top:30px
+}
+.carta p {
+    color:rgb(117, 119, 141);
+    margin-top:20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.carta:hover {
+    box-shadow: 0px 10px 25px rgb(200, 201, 237);        
+}
+.carta button:hover {
+    box-shadow: 0px 10px 25px rgb(200, 201, 237);
+    background: rgb(241, 241, 246);
+    border:1px solid white
+}
+
+/*------------------------------------------------*/
+
+#preparacion {    
+    height:600px;
+    
+}
+.preparacion {
+    margin:0 auto;
+    padding:0 auto;
+    display:flex;
+    justify-content: center;
+}
+.preparacion-left {
+    width:45%;
+    height:600px;/*
+    background-color:rgb(95, 122, 229);*/
+    background:url(./img/chica4.png);
+    display:flex;
+    justify-content: center;
+    margin-top:200px    
+}
+.preparacion-right {
+    width:55%;
+    height:600px;
+    background-color:white;
+    display:flex;
+    justify-content: center;   
+    padding:90px 
+}
+
+.prepa h2 {
+    font-size:2.4rem;
+    color:rgb(49, 49, 129);
+    font-weight: 1000;
+}
+.enun {
+    color:rgb(117, 119, 141);
+    margin-top:25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.itencillos {
+    margin-top:80px;
+    height:445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.itencillo {
+    display:flex;
+    border:1px solid rgb(201, 201, 225);
+    border-radius:10px;
+    width:78%;
+    padding:6px
+}
+.grande {
+    margin-right:0;
+    margin-left:20px
+}
+.despliegue {
+    margin:3px 20px;
+    padding:0 auto;
+    text-align: left;
+    color:rgb(49, 49, 129);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.chiquito {
+    position:absolute;
+    font-size: 0.5rem;
+    height:25px;
+    width:25px;
+    margin:6px;
+    padding: 3px;
+    right:220px
+}
+.itencillo:hover {
+    box-shadow: 0px 10px 25px rgb(200, 201, 237);        
+}
+
+.grande:hover {
+    box-shadow: 0px 10px 25px rgb(200, 201, 237);
+    background: rgb(241, 241, 246);
+    border:1px solid white
+}
+
+/*---------EMERGENCY----------*/
+#emergency {
+    margin-top: 250px;
+}
+
+
+.emergency {
+    margin:0 auto;
+    padding:0 auto;
+    display:flex;
+    justify-content: center;
+}
+.emergency-right {
+    width:45%;
+    height:600px;
+    background:url(./img/enfermero.png);
+    display:flex;
+    justify-content: center;
+    margin-top:200px    
+}
+.emergency-left {
+    width:55%;
+    height:600px;
+    background-color:white;
+    display:flex;
+    justify-content: center;   
+    padding:70px 
+}
+.emergen {
+    width:95%
+}
+.emer {
+    font-size:2.5rem;
+    color:rgb(49, 49, 129);
+    font-weight: 1000;
+    margin-top:40px
+}
+.enun-emer {
+    color:rgb(120, 120, 165);
+    font-weight: 500;
+    font-size:1.2rem;
+    margin-top:30px
+}
+.cardumen {
+    margin-top:105px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
+.cardis {
+    border:1px solid rgb(238, 228, 228);
+    border-radius: 10px;
+    width:45%;
+    margin-bottom:10%;
+    padding:6%;
+}
+.magico {
+    width:55px;
+    height:55px;
+    border-radius:10px;
+    font-size:25px
+}
+.conjunto {
+    display:flex
+}
+
+.tat {
+    margin-left:15px
+}
+.tit {
+    color:rgb(24, 22, 46);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin:0 auto
+}
+.tot {
+    color:rgb(160, 158, 170);
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin:0 auto;
+    margin-top:3px
+}
+.botoncillon {
+    color:blue;
+    margin-top:25px;
+    width:100%;
+    font-weight: 500;
+}
+.botoncillon:hover {
+    background:rgb(78, 78, 188);
+    color:white
+}
+.cardis:hover {
+    box-shadow: 0px 10px 25px rgb(200, 201, 237); 
+}
+
+#footer {
+    height:310px;
+    width:100%;
+    background:rgb(219, 234, 235);
+    margin-top:150px;
+    display:flex
+}
+.footer-left {
+    width:45%;
+}
+.despedida {
+    width:35%;
+    margin:8% 15%
+}
+.h-despedida {
+    font-size:1.9rem;
+    color:rgb(76, 76, 202);
+    font-weight: 1000;
+}
+.p-despedida  {
+    color:rgb(120, 118, 136);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.copy {
+    margin:16% 15%
+}
+.footer-right{
+    width:55%;
+    
+    padding:0.5% 5%
+}
+.listillas {
+    display:flex;
+    justify-content:space-around;
+}
+.ultimo {
+    margin-top:8%
+}
+.title {
+    font-size:1.4rem;
+    color:rgb(46, 46, 126);
+    font-weight: 800;
+    margin-bottom:25%
+}
+.list {
+    color:rgb(146, 145, 160);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.agreements {
+    display:flex;
+    margin:4% 7%;
+    justify-content:flex-end
+}
+.terms {
+    margin-left: 5%;
+}

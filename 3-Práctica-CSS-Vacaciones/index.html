@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacaciones</title>
+    <!---Bootstrap--------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!---Bootstrap Icons--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!---CSS--------------->
+    <link rel="stylesheet" href="style.css">
+    <!---FONTS---->
+</head>
+<body>
+    <!---Navbar--->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vacaciones</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="primero" class="nav-link" aria-current="page" href="#">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Historias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Regulation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hoax Buster</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!---Header--->
+    <header>
+      <div class="header">
+        <div class="header-left">
+          <div class="presentacion">
+              <h1>Fight Virus<br>with Vacations</h1>
+              <p class="textillo">Hazte un tiempo para disfrutar de unas vacaciones con tu familia o amigos. Tu te lo mereces.</p>
+              <div class="items">
+                  <div class="item">
+                      <p class="iii"><i class="amarillo bi bi-shield-fill-check"></i>Best Vacations</p>
+                  </div>
+                  <div class="item">
+                      <p class="iii"><i class="amarillo bi bi-star-fill"></i>Selected Vacations</p>
+                  </div>
+              </div>
+              <div class="montada">
+                  <button class="btn btn-light"><i class="azul bi bi-clock-fill"></i></button>
+                  <p class="planifica">Schedule your vacations</p>                    
+              </div>       
+          </div>
+        </div>             
+        <div class="header-right">
+            <img src="./img/chica2.png" alt="">
+        </div>
+      </div>     
+      <div class="planification">
+        <div class="plan">
+          <div class="fila">
+            <button class="btn btn-light"><i class="bi bi-geo-alt-fill"></i></button>
+            <p class="acompaña">Location</p>
+          </div>          
+          <p class="dice">Jakarta</p>
+        </div>
+        <div class="plan">
+          <div class="fila">
+            <button class="btn btn-light"><i class="bi bi-calendar2-week-fill"></i></button>
+            <p class="acompaña">Date</p>
+          </div>          
+          <p class="dice">08 July 2021</p>
+        </div>
+        <div class="plan">
+          <div class="fila">
+            <button class="btn btn-light"><i class="bi bi-pencil-fill"></i></button>
+            <p class="acompaña">Vacation Type</p>
+          </div>          
+          <p class="dice">Moderna</p>
+        </div>
+        <div class="plan">
+          <button id="submit1" class="btn btn-primary">Submit</button>
+        </div>
+      </div>                  
+    </header>
+    <!------SECTION LUGARES----->
+    <section class="lugares">
+      <div class="contiene">
+        <div class="nombre">
+          <h4>México</h4>
+        </div>
+        <div class="nombre">
+          <h4>Colombia</h4>
+        </div>
+        <div class="nombre">
+          <h4>Brasil</h4>
+        </div>
+        <div class="nombre">
+          <h4>Argentina</h4>
+        </div>
+      </div>
+    </section>
+    <!-------PORQUE VACACIONES------>
+    <section class="vacaciones">
+      <div class="subtitulo">
+        <h3>Why shlould I travel?</h3>
+        <p>Todos los dias despertamos sin saber si viviremos un dia mas. Abramos los ojos y agradezcamos la hermosura de cada dia.</p>
+      </div>
+      <div class="cartillas">
+        <div class="carta">
+          <button class="btn btn-light"><i class="bi bi-sun-fill"></i></button>
+          <h4>Disfruta los dias de sol</h4>
+          <p>El sol te aporta vitamina D y enaltece tu salud.</p>
+        </div>
+        <div class="carta">
+          <button class="btn btn-light"><i class="bi bi-shield-fill-check"></i></button>
+          <h4>Aumenta tu salud y bienestar</h4>
+          <p>Pasar gratos momentos favorece tu salud.</p>
+        </div>
+        <div class="carta">
+          <button class="btn btn-light"><i class="bi bi-people-fill"></i></button>
+          <h4>Comparte con tus seres queridos</h4>
+          <p>¿Que mejor que compartir tus vacaciones con tu familia y amigos?</p>
+        </div>
+        <div class="carta">
+          <button class="btn btn-light"><i class="bi bi-messenger"></i></button>
+          <h4>Mantente comunicado</h4>
+          <p>Aprovecha las facilidades tecnológicas para seguir comunicandote.</p>
+        </div>
+      </div>
+    </section>
+    <!-------PREPARACION VACACIONES------>
+    <section id="preparacion">
+      <div class="preparacion">
+        <div class="preparacion-left">
+          <!-----
+          <img src="./img/chica4.png" alt="">--->
+        </div>
+        <div class="preparacion-right">
+          <div class="prepa">
+              <h2>Preparation before vacation</h2>
+              <p class="enun">Para prepararte, trata de ordenar los días previos todo lo que puedas en relación al viaje y a tu vida. Intenta mantenerte tranquilo para predisponerte a vivir de la mejor manera.</p>
+              <div class="itencillos">
+                <div class="itencillo">
+                  <button class="grande btn btn-light"><i class="azul bi bi-shield-fill-x"></i></button>
+                  <p class="despliegue">Avoid alcoholic beverages</p>
+                  <button class="chiquito btn btn-light"><i class="azul bi bi-heart-fill"></i></button> 
+                </div>
+                <div class="itencillo">
+                  <button class="grande btn btn-light"><i class="azul bi bi-x-square-fill"></i></button>
+                  <p class="despliegue">Avoid stress</p>
+                  <button class="chiquito btn btn-light"><i class="azul bi bi-heart-fill"></i></button> 
+                </div>
+                <div class="itencillo">
+                  <button class="grande btn btn-light"><i class="azul bi bi-kanban-fill"></i></button>
+                  <p class="despliegue">Eat healthy food</p>
+                  <button class="chiquito btn btn-light"><i class="azul bi bi-heart-fill"></i></button> 
+                </div>
+                <div class="itencillo">
+                  <button class="grande btn btn-light"><i class="azul bi bi-check-square-fill"></i></button>
+                  <p class="despliegue">Get enough sleep</p>
+                  <button class="chiquito btn btn-light"><i class="azul bi bi-heart-fill"></i></button> 
+                </div>
+                <div class="itencillo">
+                  <button class="grande btn btn-light"><i class="azul bi bi-heart-fill"></i></button>
+                  <p class="despliegue">Exercise or physical activity</p>
+                  <button class="chiquito btn btn-light"><i class="azul bi bi-heart-fill"></i></button> 
+                </div>                                    
+              </div>                   
+          </div>
+            
+        </div>               
+      </div>
+    </section>
+    <!-------EMERGENCY  CONTACT-------->
+    <section id="emergency">
+      <div class="emergency">
+        <div class="emergency-left">
+          <div class="emergen">
+            <h2 class="emer">Emergency Contact</h2>
+            <p class="enun-emer">No esta de más tener a mano los números de emergencia por si surge algún imprevisto. Cualquier cosa puedes comunicarte a través de los siguientes medios:</p>
+            <div class="cardumen">
+              <div class="cardis">
+                <div class="conjunto">
+                  <button class="magico btn btn-light"><i class="azul bi bi-telephone-fill"></i></button>
+                  <div class="tat">
+                    <p class="tit">Call</p>
+                    <p class="tot">111.111.111.11</p>
+                  </div>
+                </div>                
+                <button class="botoncillon btn btn-light">Call Now</button>                
+              </div> 
+              <div class="cardis">
+                <div class="conjunto">
+                  <button class="magico btn btn-light"><i class="azul bi bi-chat-dots-fill"></i></button>
+                  <div class="tat">
+                    <p class="tit">Chat</p>
+                    <p class="tot">222.222.222.22</p>
+                  </div>
+                </div>                
+                <button class="botoncillon btn btn-light">Chat Now</button>                
+              </div> 
+              <div class="cardis">
+                <div class="conjunto">
+                  <button class="magico btn btn-light"><i class="azul bi bi-camera-video-fill"></i></button>
+                  <div class="tat">
+                    <p class="tit">Video Call</p>
+                    <p class="tot">333.333.333.33</p>
+                  </div>
+                </div>                
+                <button class="botoncillon btn btn-light">Video Call Now</button>                
+              </div> 
+              <div class="cardis">
+                <div class="conjunto">
+                  <button class="magico btn btn-light"><i class="azul bi bi-envelope-fill"></i></button>
+                  <div class="tat">
+                    <p class="tit">Message</p>
+                    <p class="tot">444.444.444.44</p>
+                  </div>
+                </div>                
+                <button class="botoncillon btn btn-light">Message Now</button>                
+              </div>                            
+            </div>                   
+          </div>          
+        </div>
+        <div class="emergency-right">       
+        </div>               
+      </div>
+    </section>
+    <!-------FOOTER-------->
+    <footer id="footer">
+      <div class="footer-left">
+        <div class="despedida">
+          <h4 class="h-despedida">Vacations</h4>
+          </h4>
+          <p class="p-despedida">Brindate un momento de descanso para disfrutar con tus seres queridos</p>          
+        </div>
+        <p class="copy p-despedida">@2022 Vacations. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <div class="listillas">
+          <div class="ultimo">
+            <h4 class="title">About</h4>
+            <p class="list">About Us</p>
+            <p class="list">Features</p>
+            <p class="list">News & Blog</p>
+          </div>
+          <div class="ultimo">
+            <h4 class="title">Company</h4>          
+            <p class="list">How We Work?</p>
+            <p class="list">Capital</p>
+            <p class="list">Security</p>          
+          </div>
+          <div class="ultimo">
+            <h4 class="title">Support</h4>
+            <p class="list">FAQs</p>
+            <p class="list">Support Center</p>
+            <p class="list">Contact Us</p>
+          </div>
+        </div>
+        <div class="agreements">
+          <p class="terms p-despedida">Terms & Agreements</p>
+          <p class="terms p-despedida">Privacy Policy</p>
+        </div>        
+      </div>
+    </footer>
+    
+    <!-----scripts----->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
