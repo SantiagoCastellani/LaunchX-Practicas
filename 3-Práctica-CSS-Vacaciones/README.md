@@ -14,7 +14,22 @@ La página esta deployada en: [Clon Page Vacations](https://clonpage-vacations.n
 A continuacion, se muestran las capturas de las diferentes secciones de la página.
 
 Captura 1 
-![../img/captura1.png](./img/captura1.png))
+![../img/captura1.png](./img/captura1.png)
+
+Captura 2 
+![../img/captura2.png](./img/captura2.png)
+
+Captura 3 
+![../img/captura3.png](./img/captura3.png)
+
+Captura 4 
+![../img/captura4.png](./img/captura4.png)
+
+Captura 5 
+![../img/captura5.png](./img/captura5.png)
+
+Captura 6 
+![../img/captura6.png](./img/captura6.png)
 
 
 [Volver](../README.md)
