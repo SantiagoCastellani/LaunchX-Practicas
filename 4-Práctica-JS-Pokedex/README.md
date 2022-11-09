@@ -5,7 +5,7 @@
 Es una versión de la Pokedex, en la que consumimos la PokeApi, para cargar y visualizar diferentes pokemones.
 
 Contiene 3 pages.
- - Buscador de pokemones 
+ - **Buscador de pokemones**: 
       Se puede buscar por número o por nombre. Contiene alertas si la búsqueda es infructuosa.
       
  - Lista de favoritos
