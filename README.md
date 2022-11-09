@@ -8,4 +8,4 @@ Aqui se encuentran las prácticas de LaunchX - Misión FrontEnd
 
 - [3 - Clon Page Vacations - Práctica de CSS](/3-Pr%C3%A1ctica-CSS-Vacaciones)
 
-- [4 - Pokemoncillos - Práctica de JS-Pokedex](/4-Pr%C3%A1ctica-JS-Pokedex)
+- [4 - Pokemoncillos - Práctica de JS-Pokedex](/4-Pr%C3%A1ctica-JS-Pokedex/README.md)
