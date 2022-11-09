@@ -1,0 +1,250 @@
+/*===========NAVBAR===========*/
+.navbar {
+    background:rgba(0, 0, 0);
+    color:lightblue;
+    padding:15px;
+    border-bottom:1px solid yellow
+}
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.navbar a:link {
+    color:rgb(93, 180, 209);
+    margin:0 20px;
+}
+.navbar a:visited {
+    color:rgb(93, 180, 209);
+}
+.navbar a:hover { color:rgb(223, 231, 135)}
+
+.bola {
+    color:red
+}
+.lupa {
+    color:orange
+}
+.estrella {
+    color:yellow
+}
+.tuctuc {
+    color:lightblue
+}
+/*===========HEADER===========*/
+header, #listado {
+    background:url(./img/fondo1.jpg);
+    background-image: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    text-align: center;
+}
+header {
+    padding:30px
+}
+/*----PRESENTACION-----*/
+h1 {
+   padding-top:90px;
+   font-size: 4rem;
+   color:yellow
+}
+.busqueda h4 {
+    color:orange;
+    margin-top:2%
+}
+.busqueda p {
+    color:rgb(160, 229, 160);
+    margin-top:2%;
+    font-size: 1rem;
+}
+/*----BUSCADOR---*/
+.buscador {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buscador input {
+    width:150px
+}
+.buscador input, .buscador button {
+    margin:5px 5px
+}
+
+/*----CARD----*/
+
+.muestra {
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:5%;
+    padding:0px
+}
+.pokemon-card {
+    margin:0 auto;
+    background:black;
+    border:3px solid rgb(162, 179, 88);
+    border-radius:5px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:max-content;
+    height:max-content;
+}
+.tarjeta {
+    width:200px;
+    height:200px;
+    background:black;
+    display:flex;
+    flex-wrap: wrap;
+}
+#pokeImg {
+    height:100%;
+    width:100%;
+}
+.data {
+    width:200px;
+    height:200px;
+    background:black;
+    margin:0
+}
+#numero {
+    margin-top:20px;
+    margin-bottom:5px;
+    font-size: 1.2rem;
+    color:white
+}
+#nombre {
+    color:lightblue
+}
+#titulillo {
+    margin-top:20px;
+    margin-bottom:3px;
+    color:rgb(203, 191, 191)
+}
+#habilidad1, #habilidad2 {
+    margin-top:2px;
+    margin-bottom:2px;
+    color:grey
+}
+
+/* Botones */
+.botones button {
+    margin:10px
+}
+
+/*===========FOOTER===========*/
+footer {
+    min-height:70px;
+    height: max-content;
+    background: black;
+    border-top:1px solid yellow;
+    color:lightblue;
+    text-align: center;
+    padding:20px;
+    font-size: 1rem;
+}
+
+.span {
+    color:grey;
+    font-size:0.8rem        
+}
+
+@media only screen and (max-width: 550px) {
+    h1 {
+        font-size:3.5rem
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .pokemon-card {
+        width:200px;
+        height:402px
+    }
+    h1 {
+        font-size:2.8rem
+    }
+}
+
+
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+#titulo2 {
+    padding-top:120px
+}
+#pokemones  {
+    margin:0 auto;
+    padding:40px 0 70px;
+}
+.pokemon {
+    height: 350px;
+    width:220px;
+    border:2px solid yellow;
+    border-radius:5px;
+    margin:20px;
+    text-align: center;
+    background:black;
+    position:relative
+}
+.imagen-pokemon {
+    width:210px;
+    height:175px;
+    background:white;
+    margin-top: 3px;
+}
+.numerillo {
+    margin-top: 18px;
+    margin-bottom:0;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color:grey
+}
+.pokemon h4 {
+    font-size:1.6rem;
+    font-weight: bolder;
+    margin: 5px auto;
+    color:lightblue
+}
+.habilidades {
+    font-size:1rem;
+    margin-top:25px;
+    margin-bottom: 0;
+    color:grey
+}
+.habilidad {
+    font-weight: bolder;    
+    color:rgb(172, 172, 172);
+}
+.pokemon:hover {
+    box-shadow: 0px 20px 20px red;
+    cursor:pointer
+}
+
+/*-------FOTO PAGE------*/
+
+#foto {
+    min-height:100vh;
+    background-color: black;
+    height:max-content;
+    text-align: center;
+}
+#imagenElegido {
+    margin:9% auto 0px;
+    padding:0 auto
+}
+#foto a {
+    text-decoration: none;
+}
+#apodo {
+    color:white;
+    font-size:2rem;
+    margin-top:0
+}
